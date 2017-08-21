@@ -1,0 +1,42 @@
+body {
+	background-color: #ffffff;
+}
+table {
+	font-family: Arial;
+	font-size: 18px;
+}
+td {
+	font-family: Arial;
+}
+nav ul {
+	list-style:none;
+	text-align:center;
+	background-color: #ffcc00;
+}
+nav ul li {
+	font-size: 12px;
+	border-bottom: 1px solid #444;
+	padding: 10px 0px;
+	background-color: #1ffcc00;
+}
+nav ul li:hover {
+	background-color: #a6a6a6;
+	transition: all .3s ease;
+}
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	font-family:Arial;
+	color: #000000;
+}
+@media screen and (min-width: 665px) {
+	nav{
+	font-size:0;
+	}
+	nav ul li {
+		display: inline-block;
+		width: 120px;
+		font-size: 18px;
+		border-bottom: none;
+	}
+}
